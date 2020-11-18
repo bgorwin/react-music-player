@@ -3,14 +3,14 @@ import { v4 as uuidv4 } from 'uuid';
 function chillHop() {
 	return [
 		{
-			name: 'Paved Paths',
-			artist: 'Leavv',
+			name: 'Lunar Cycles',
+			artist: 'Sleepy Fish',
 			cover:
-				'https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-300x300.jpg',
+				' https://chillhop.com/wp-content/uploads/2020/09/c209a7df7b9bc133dfff73ce86ebc3c57c2b73dd-300x300.jpg',
 			id: uuidv4(),
 			active: true,
-			color: ['#D9E8A9', '#CF8F60'],
-			audio: 'https://mp3.chillhop.com/serve.php/?mp3=9919'
+			color: ['#1E5A76', '#AA4C3D'],
+			audio: 'https://mp3.chillhop.com/serve.php/?mp3=10031'
 		},
 		{
 			name: 'Pine and Oak',
@@ -53,14 +53,14 @@ function chillHop() {
 			audio: 'https://mp3.chillhop.com/serve.php/?mp3=10130'
 		},
 		{
-			name: 'Lunar Cycles',
-			artist: 'Sleepy Fish',
+			name: 'Paved Paths',
+			artist: 'Leavv',
 			cover:
-				' https://chillhop.com/wp-content/uploads/2020/09/c209a7df7b9bc133dfff73ce86ebc3c57c2b73dd-300x300.jpg',
+				'https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-300x300.jpg',
 			id: uuidv4(),
 			active: false,
-			color: ['#1E5A76', '#AA4C3D'],
-			audio: 'https://mp3.chillhop.com/serve.php/?mp3=10031'
+			color: ['#D9E8A9', '#CF8F60'],
+			audio: 'https://mp3.chillhop.com/serve.php/?mp3=9919'
 		}
 	];
 }
